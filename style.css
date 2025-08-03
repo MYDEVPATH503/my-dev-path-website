@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    
 }
 
 h2 {
@@ -11,47 +12,55 @@ h2 {
     object-fit: cover;
 }
 
-/* Styles for emoji */
-.wave {
-    display: inline-block;
-    animation: wave-animation 2s infinite;
-    transform-origin: 70% 70%;
-    font-size: 1.5em;
+header {
+  background-color: #f8f9fa; /* Bootstrap’s light gray */
 }
 
-/* waving animation for emoji*/
-@keyframes wave-animation {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    10% {
-        transform: rotate(14deg);
-    }
-
-    20% {
-        transform: rotate(-8deg);
-    }
-
-    30% {
-        transform: rotate(14deg);
-    }
-
-    40% {
-        transform: rotate(-4deg);
-    }
-
-    50% {
-        transform: rotate(10deg);
-    }
-
-    60% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(0deg);
-    }
+header h1 {
+  margin-bottom: 0.5rem;
 }
+
+header p {
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+/*Style for navbar*/
+.custom-navbar {
+  position: fixed;
+}
+
+/* Profile Photo Style */
+.custom-profile-photo {  
+  border: 2px solid black;
+  box-shadow: 2px 4px 3px hsla(140, 100%, 51%, 0.1);
+}
+
+/* Style for site-warpper*/
+.site-wrapper {  
+  max-width: 950px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #000;        /* Optional: solid black border */
+  background-color: hsl(0, 5%, 93%);     /* White content area */
+  box-shadow: 5px -5px 3px hsla(111, 53%, 43%, 0.519) !important; /* Optional: soft shadow */
+  border-radius: 8px;            /* Optional: rounded corners */
+  margin-top: 190px; 
+}
+
+.global-background-color {
+  background-color: hsl(0, 0%, 83%);
+}
+
+
+/* Personal Style for Hero Section*/
+.custom-container {
+  background-color: rgb(241, 239, 239); 
+  border: 1px solid black;
+  border-bottom: none;
+  padding-top: 15px;
+}
+
+
 
 
